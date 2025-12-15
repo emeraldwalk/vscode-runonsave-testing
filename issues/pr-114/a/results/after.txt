@@ -1,0 +1,56 @@
+"emeraldwalk.runonsave": {
+      // Messages to show before & after all commands
+      "message": "*** All Start ***",
+      "messageAfter": "*** All Complete ***",
+      // Show elappsed time for all commands
+      "showElapsed": true,
+      "commands": [
+        {
+          "match": ".*",
+          "cmd": "sleep 3",
+          "message": "1. sleep 3"
+        },
+        {
+          "match": ".*",
+          "cmd": "sleep 10",
+          "message": "2. sleep 10",
+          "isAsync": true
+        },
+        {
+          "match": ".*",
+          "cmd": "sleep 4",
+          "message": "3. sleep 4",
+          "isAsync": true
+        }
+}
+
+*** All Start ***
+2. sleep 10
+3. sleep 4
+1. sleep 3
+*** All Start ***
+2. sleep 10
+3. sleep 4
+*** All Start ***
+2. sleep 10
+3. sleep 4
+*** All Start ***
+2. sleep 10
+3. sleep 4
+*** All Start ***
+2. sleep 10
+3. sleep 4
+1. sleep 3
+1. sleep 3
+1. sleep 3
+*** All Complete ***
+Total elapsed ms: 10020.926259
+*** All Complete ***
+Total elapsed ms: 10028.858024000005
+*** All Complete ***
+Total elapsed ms: 10023.893211999999
+1. sleep 3
+*** All Complete ***
+Total elapsed ms: 12038.973353999998
+*** All Complete ***
+Total elapsed ms: 15106.196173999997

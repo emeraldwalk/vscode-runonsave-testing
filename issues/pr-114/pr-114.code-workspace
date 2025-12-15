@@ -1,0 +1,62 @@
+{
+  "folders": [
+    {
+      "path": "a"
+    },
+    {
+      "path": "b"
+    },
+    {
+      "path": "c"
+    }
+  ],
+  "settings": {
+    "emeraldwalk.runonsave": {
+      // Messages to show before & after all commands
+      "message": "*** All Start ***",
+      "messageAfter": "*** All Complete ***",
+      // Show elappsed time for all commands
+      "showElapsed": true,
+      "commands": [
+        {
+          "match": ".*",
+          "cmd": "sleep 3",
+          "message": "1. sleep 3"
+        },
+        {
+          "match": ".*",
+          "cmd": "sleep 10",
+          "message": "2. sleep 10",
+          "isAsync": true
+        },
+        {
+          "match": ".*",
+          "cmd": "sleep 4",
+          "message": "3. sleep 4",
+          "isAsync": true
+        }
+        // {
+        //   "match": ".*",
+        //   "cmd": "echo 1st Command",
+        //   // Messages to run before / after this cmd
+        //   "message": "- 1. Start",
+        //   "messageAfter": "- 1. Complete",
+        //   // Show elapsed time for this cmd
+        //   "showElapsed": true
+        // },
+        // {
+        //   "message": "- Message only"
+        // },
+        // {
+        //   "match": ".*",
+        //   "cmd": "echo 2nd Command",
+        //   // Messages to run before / after this cmd
+        //   "message": "- 2. Start",
+        //   "messageAfter": "- 2. Complete",
+        //   // Show elapsed time for this cmd
+        //   "showElapsed": true
+        // }
+      ]
+    }
+  }
+}

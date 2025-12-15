@@ -1,0 +1,15 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "sleep 99999"
+      },
+      {
+        "match": ".*",
+        "cmd": "sleep 88888",
+        "isAsync": true
+      }
+    ]
+  }
+}
