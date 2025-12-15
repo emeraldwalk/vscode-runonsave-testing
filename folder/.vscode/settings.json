@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "echo \"workspaceRoot:'${workspaceRoot}'\nworkspaceFolder:'${workspaceFolder}'\nfile:'${file}'\nfileBasename:'${fileBasename}'\nfileDirname:'${fileDirname}'\nfileExtname:'${fileExtname}'\nfileBasenameNoExt:'${fileBasenameNoExt}'\nrelativeFile:'${relativeFile}'\""
+      }
+    ]
+  }
+}
