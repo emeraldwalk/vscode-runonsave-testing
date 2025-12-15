@@ -1,0 +1,24 @@
+{
+  "folders": [
+	{
+		"path": "a"
+	},
+	{
+		"path": "b"
+	},
+	{
+		"path": "c"
+	}
+],
+  "settings": {
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          // Run whenever any file is saved
+          "match": ".*",
+          "cmd": "echo '${fileBasename}' saved."
+        }
+      ]
+    }
+  }
+}

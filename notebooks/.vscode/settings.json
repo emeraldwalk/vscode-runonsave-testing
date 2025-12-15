@@ -1,0 +1,78 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        // Run whenever any file is saved
+        "match": ".ipynb",
+        "cmd": "echo '${fileBasename}' notebook saved.",
+        "autoShowOutputPanel": "always"
+      },
+      {
+        // Run whenever any file is saved
+        "match": ".css",
+        "cmd": "echo '${fileBasename}' file saved.",
+        "autoShowOutputPanel": "always"
+      }
+      // {
+      //     "cmd": "pwd",
+      //     "autoShowOutputPanel": "never"
+      // },
+      // {
+      //     "cmd": "xxx",
+      //     "autoShowOutputPanel": "never"
+      // }
+    ]
+  }
+  // "emeraldwalk.runonsave": {
+  //     "message": "*** All Start ***",
+  //     "messageAfter": "*** All Complete ***",
+  //     "showElapsed": true,
+  //     "commands": [
+  //         {
+  //             "match": ".*",
+  //             "notMatch": "\\.vscode/.*$",
+  //             "cmd": "echo 1st Command",
+  //             "message": "- 1. Start",
+  //             "messageAfter": "- 1. Complete",
+  //             "showElapsed": true,
+  //         },
+  //         {
+  //             "message": "Message only"
+  //         },
+  //         {
+  //             "match": ".*",
+  //             "notMatch": "\\.vscode/.*$",
+  //             "cmd": "echo 2nd Command",
+  //             "message": "- 2. Start",
+  //             "messageAfter": "- 2. Complete",
+  //             "showElapsed": true,
+  //         }
+  //         // {
+  //         //     "match": ".*",
+  //         //     "cmd": "echo '${datetimeUTC}'"
+  //         // }
+  //         // {
+  //         //     "match": "\\.(html|css|js)$",
+  //         //     "notMatch": "parity\\.js$",
+  //         //     "cmd": "echo '${datetime}' '${datetimeUTC}'."
+  //         // },
+  //         // {
+  //         //     "match": "\\.json$",
+  //         //     "notMatch": "\\.vscode/.*$",
+  //         //     "cmd": "echo '${fileBasename}' saved."
+  //         // },
+  //     ]
+  // },
+  // "emeraldwalk.runonsave": {
+  //     "commands": [
+  //         {
+  //             "match": "\\.java$",
+  //             "cmd": "git add ${file} && git commit -m 'Auto save ${file} at ${datetime}'"
+  //         },
+  //         {
+  //             "match": "\\.cpp$",
+  //             "cmd": "git add ${file} && git commit -m 'Auto save ${file} at ${datetimeUTC}'"
+  //         },
+  //     ]
+  // }
+}
