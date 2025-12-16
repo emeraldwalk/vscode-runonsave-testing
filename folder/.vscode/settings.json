@@ -3,7 +3,7 @@
     "commands": [
       {
         "match": ".*",
-        "cmd": "echo \"workspaceRoot:'${workspaceRoot}'\nworkspaceFolder:'${workspaceFolder}'\nfile:'${file}'\nfileBasename:'${fileBasename}'\nfileDirname:'${fileDirname}'\nfileExtname:'${fileExtname}'\nfileBasenameNoExt:'${fileBasenameNoExt}'\nrelativeFile:'${relativeFile}'\""
+        "cmd": "echo \"workspaceRoot:'${workspaceRoot}' workspaceFolder:'${workspaceFolder}' file:'${file}' fileBasename:'${fileBasename}' fileDirname:'${fileDirname}' fileExtname:'${fileExtname}' fileBasenameNoExt:'${fileBasenameNoExt}' relativeFile:'${relativeFile}'\""
       }
     ]
   }

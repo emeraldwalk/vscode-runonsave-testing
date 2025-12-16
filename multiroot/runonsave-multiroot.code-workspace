@@ -1,22 +1,21 @@
 {
   "folders": [
-	{
-		"path": "a"
-	},
-	{
-		"path": "b"
-	},
-	{
-		"path": "c"
-	}
-],
+    {
+      "path": "a"
+    },
+    {
+      "path": "b"
+    },
+    {
+      "path": "c"
+    }
+  ],
   "settings": {
     "emeraldwalk.runonsave": {
       "commands": [
         {
-          // Run whenever any file is saved
           "match": ".*",
-          "cmd": "echo '${fileBasename}' saved."
+          "cmd": "echo \"workspaceRoot:'${workspaceRoot}' workspaceFolder:'${workspaceFolder}' file:'${file}' fileBasename:'${fileBasename}' fileDirname:'${fileDirname}' fileExtname:'${fileExtname}' fileBasenameNoExt:'${fileBasenameNoExt}' relativeFile:'${relativeFile}'\""
         }
       ]
     }
