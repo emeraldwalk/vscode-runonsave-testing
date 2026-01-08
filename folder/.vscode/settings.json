@@ -3,7 +3,9 @@
     "commands": [
       {
         "match": ".*",
-        "cmd": "echo \"workspaceRoot:'${workspaceRoot}' workspaceFolder:'${workspaceFolder}' file:'${file}' fileBasename:'${fileBasename}' fileDirname:'${fileDirname}' fileExtname:'${fileExtname}' fileBasenameNoExt:'${fileBasenameNoExt}' relativeFile:'${relativeFile}'\""
+        "cmd": "echo \"workspaceRoot:'${workspaceRoot}' workspaceFolder:'${workspaceFolder}' file:'${file}' fileBasename:'${fileBasename}' fileDirname:'${fileDirname}' fileExtname:'${fileExtname}' fileBasenameNoExt:'${fileBasenameNoExt}' relativeFile:'${relativeFile}'\"",
+        "message": "message \"workspaceRoot:'${workspaceRoot}' workspaceFolder:'${workspaceFolder}' file:'${file}' fileBasename:'${fileBasename}' fileDirname:'${fileDirname}' fileExtname:'${fileExtname}' fileBasenameNoExt:'${fileBasenameNoExt}' relativeFile:'${relativeFile}'\"",
+        "messageAfter": "messageAfter \"workspaceRoot:'${workspaceRoot}' workspaceFolder:'${workspaceFolder}' file:'${file}' fileBasename:'${fileBasename}' fileDirname:'${fileDirname}' fileExtname:'${fileExtname}' fileBasenameNoExt:'${fileBasenameNoExt}' relativeFile:'${relativeFile}'\""
       }
     ]
   }
